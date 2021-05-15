@@ -18,10 +18,8 @@ a {
 }
 /* main content stays here */
 main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
@@ -40,10 +38,11 @@ span {
   font-size: 3rem;
 }
 
-.second__span {
-  position: relative;
-  left: 8.5rem;
+.fuck__span {
+  left: 0;
+  top: -0.5rem;
 }
+
 /* cool stuff ends here*/
 
 /* main links  */
