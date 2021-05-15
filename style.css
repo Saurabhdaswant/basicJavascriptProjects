@@ -1,0 +1,68 @@
+/* main font */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
+
+/* font for curlly brackets */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* general setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #001833;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* main content stays here */
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* class hero */
+h1 {
+  color: #248aff;
+  font-size: 5rem;
+}
+
+/* cool stuff */
+span {
+  font-family: "Poppins", sans-serif;
+  color: #248aff;
+  position: relative;
+  left: -8.5rem;
+  font-size: 3rem;
+}
+
+.second__span {
+  position: relative;
+  left: 8.5rem;
+}
+/* cool stuff ends here*/
+
+/* main links  */
+.main__link {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19rem;
+  height: 1px;
+  margin: 0.8rem auto;
+  padding: 1.7rem;
+  background-color: #e0eeff57;
+  border-radius: 5px;
+}
+
+.main__link:hover {
+  background-color: #fff;
+  color: #001833;
+}
+
+/* main links ends here */
